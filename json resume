@@ -1,0 +1,32 @@
+let json ={
+    "basics": {
+        "name": "SANJAI KANNAN G",
+        "email": "sanjaikannang@gamil.com",
+        "phone": 9345725595,
+        "degree": "B.sc.,"},
+     
+     "location": {
+        "address": "3/70,kannan kovil street",
+        "postalCode": 625517,
+        "city": "theni",
+        "state": "Tamilnadu",
+        "country": "India"
+     },
+    "education":  {
+        "institution": "PSG college of arts and science",
+        "department": "Information Technology",
+        "studyType": "fulltime",
+        "batch start year": 2021,
+        "batch end year": 2023,
+        "gpa": 7.5
+     },
+    "skills": {
+        "name": "python,javascript",
+        "level": "beginer",
+        "project": "liver disease prediction"
+    },
+    "languages": {
+        "language": "Tamil,English",
+     }
+}
+  console.log(json);

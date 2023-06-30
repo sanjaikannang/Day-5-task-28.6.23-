@@ -1,0 +1,43 @@
+var json =[{"fname":"sanjai",
+            "lname":"kannan",
+            "mail":"sanjaikannang@gmail.com",
+            "role":"FSD MERN"
+            },   
+           {"fname":"gokula",
+            "lname":"kannan",
+            "mail":"gokulakannang@gmail.com",
+            "role":"SELENIUM TESTER"
+           }]; 
+           
+        //for loop
+           
+   for (var i = 0;i < json.length;i++){
+       var save = json[i];
+       
+    console.log(save.fname);
+    console.log(save.lname);
+    console.log(save.mail);
+    console.log(save.role);
+   }
+
+        //forEach
+    json.forEach(function(save) { 
+        console.log(save.role); 
+                
+    });
+
+        //for in
+   for (var key in json) {
+    if (json.hasOwnProperty(key)) {
+    console.log(json[key].role);
+    console.log(json[key].mail);
+    }
+    }
+
+        //for of
+    
+    let text = "";
+   for (let x of json[key].mail) {
+   text += x; 
+   }
+    console.log(text);
